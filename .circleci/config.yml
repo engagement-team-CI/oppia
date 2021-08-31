@@ -16,7 +16,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - develop
 
 var_for_docker_image: &docker_image circleci/python:2.7.17-browsers
 
